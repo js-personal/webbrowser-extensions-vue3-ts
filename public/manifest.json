@@ -1,0 +1,30 @@
+{
+   "author": "0G3NS3C",
+   "manifest_version": 2,
+   "name": "YT AD Remover",
+   "version": "1.0.0",
+   "permissions": [
+      "tabs", "https://*/*"
+   ],
+   "background": {
+      "persistent": true,
+      "scripts": [ "main.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "My Sample Extension",
+      "default_popup": "interface.html"
+   },
+   "sidebar_action": {
+      "default_icon": "icon.png",
+      "default_title": "0GS Ads Remover",
+      "default_panel": "panel.html"
+   },
+   "options_ui": {
+      "page": "interface.html",
+      "open_in_tab": true
+   },
+   "developer": {
+      "name": "0G3NS3C"
+   }
+}
